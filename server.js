@@ -2,9 +2,9 @@ var express = require('express')
 var app =  express();
 
 app.get('/',function(req,res){
-		res.send('Helo World');
+		res.send('Hello World Shseik');
 });
 
-app.listen(5000,function(){
+app.listen(3000,function(){
 	console.log("sweet");
 })
